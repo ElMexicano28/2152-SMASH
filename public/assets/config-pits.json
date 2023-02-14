@@ -1,5 +1,5 @@
 {
-  "heading": "Charged Up - 2023 (Pit Scouting)",
+  "heading": "2152 SMASH - Pits Scouting",
   "logo": "logo.png",
   "skipTeamSelection": true,
   "pages": [
@@ -28,18 +28,6 @@
           "type": "number"
         },
         {
-          "name": "Length",
-          "type": "number"
-        },
-        {
-          "name": "Width",
-          "type": "number"
-        },
-        {
-          "name": "Wheel to bumper distance",
-          "type": "number"
-        },
-        {
           "name": "Weight",
           "type": "number"
         },
@@ -55,33 +43,16 @@
           ]
         },
         {
-          "name": "Swerve Type",
-          "type": "dropdown",
-          "options": [
-            "No swerve",
-            "L1",
-            "L2",
-            "L3",
-            "L4",
-            "Neo",
-            "Falcon"
-          ]
-        },
-        {
           "name": "Has Driver Camera",
           "type": "checkbox"
         }
       ]
     },
     {
-      "name": "Match Play",
+      "name": "Robot Capabilities",
       "widgets": [
         {
           "name": "Dock Time",
-          "type": "number"
-        },
-        {
-          "name": "Cycle time",
           "type": "number"
         },
         {
@@ -98,18 +69,7 @@
           "type": "multicheckbox",
           "options": [
             "Cones",
-            "Tipped Cones",
             "Cubes"
-          ]
-        },
-        {
-          "name": "Pickup Locations",
-          "type": "multicheckbox",
-          "options": [
-            "Ground",
-            "Sub 1",
-            "Sub 2 Low",
-            "Sub 2 High"
           ]
         },
         {
